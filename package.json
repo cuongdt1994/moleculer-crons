@@ -4,6 +4,9 @@
   "main": "./dist/index.js",
   "license": "MIT",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "del ./dist & tsc",
     "release": "dotenv release-it",
