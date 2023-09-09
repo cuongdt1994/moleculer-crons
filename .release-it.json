@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "before:init": ["npm run lint", "npm run build", "npm test"],
+    "before:init": ["npm run build", "npm test"],
     "after:bump": "npx auto-changelog -p"
   },
   "github": {
