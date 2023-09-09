@@ -715,6 +715,14 @@
     "@pnpm/network.ca-file" "^1.0.1"
     config-chain "^1.1.11"
 
+"@release-it/keep-a-changelog@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/@release-it/keep-a-changelog/-/keep-a-changelog-4.0.0.tgz"
+  integrity sha512-a3n6RkBaYGf2qK2Yz/FkHDkpJjLYtMvpoZBIGfOz1zmv+918YU3In9zjoBJn4f2PldIW5yTWuk81hMYAdgPFww==
+  dependencies:
+    detect-newline "^4.0.0"
+    string-template "^1.0.0"
+
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"
   resolved "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.27.8.tgz"
@@ -1643,6 +1651,11 @@ detect-newline@^3.0.0:
   resolved "https://registry.npmjs.org/detect-newline/-/detect-newline-3.1.0.tgz"
   integrity sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==
 
+detect-newline@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/detect-newline/-/detect-newline-4.0.0.tgz"
+  integrity sha512-1aXUEPdfGdzVPFpzGJJNgq9o81bGg1s09uxTWsqBlo9PI332uyJRQq13+LK/UN4JfxJbFdCXonUFQ9R/p7yCtw==
+
 diff-sequences@^29.6.3:
   version "29.6.3"
   resolved "https://registry.npmjs.org/diff-sequences/-/diff-sequences-29.6.3.tgz"
@@ -1666,6 +1679,26 @@ dot-prop@^6.0.1:
   integrity sha512-tE7ztYzXHIeyvc7N+hR3oi7FIbf/NIjVP9hmAt3yMXzrQ072/fpjGLx2GxNxGxUl5V73MEqYzioOMoVhGMJ5cA==
   dependencies:
     is-obj "^2.0.0"
+
+dotenv-cli@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.npmjs.org/dotenv-cli/-/dotenv-cli-7.3.0.tgz"
+  integrity sha512-314CA4TyK34YEJ6ntBf80eUY+t1XaFLyem1k9P0sX1gn30qThZ5qZr/ZwE318gEnzyYP9yj9HJk6SqwE0upkfw==
+  dependencies:
+    cross-spawn "^7.0.3"
+    dotenv "^16.3.0"
+    dotenv-expand "^10.0.0"
+    minimist "^1.2.6"
+
+dotenv-expand@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-10.0.0.tgz"
+  integrity sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==
+
+dotenv@^16.3.0:
+  version "16.3.1"
+  resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz"
+  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
 
 eastasianwidth@^0.2.0:
   version "0.2.0"
@@ -3402,7 +3435,7 @@ minimatch@^3.0.4, minimatch@^3.1.1:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.2.0, minimist@^1.2.5:
+minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6:
   version "1.2.8"
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
@@ -3909,7 +3942,7 @@ registry-url@^6.0.0:
   dependencies:
     rc "1.2.8"
 
-release-it@^16.1.5:
+release-it@^16.0.0, release-it@^16.1.5:
   version "16.1.5"
   resolved "https://registry.npmjs.org/release-it/-/release-it-16.1.5.tgz"
   integrity sha512-w/zCljPZBSYcCwR9fjDB1zaYwie1CAQganUrwNqjtXacXhrrsS5E6dDUNLcxm2ypu8GWAgZNMJfuBJqIO2E7fA==
@@ -4227,6 +4260,11 @@ string-length@^4.0.1:
   dependencies:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
+
+string-template@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/string-template/-/string-template-1.0.0.tgz"
+  integrity sha512-SLqR3GBUXuoPP5MmYtD7ompvXiG87QjT6lzOszyXjTM86Uu7At7vNnt2xgyTLq5o9T4IxTYFyGxcULqpsmsfdg==
 
 string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
