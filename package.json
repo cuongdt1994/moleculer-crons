@@ -20,6 +20,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "auto-changelog": "^2.4.0",
     "cron": "^2.4.3"
   },
   "directories": {
