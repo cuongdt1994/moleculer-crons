@@ -3,6 +3,10 @@
     "before:init": ["npm run lint", "npm run build", "npm test"],
     "after:bump": "npx auto-changelog -p"
   },
+  "github": {
+    "release": true,
+    "autoGenerate": true
+  },
   "git": {
     "changelog": "npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs"
   },
