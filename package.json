@@ -15,6 +15,7 @@
   "devDependencies": {
     "@release-it/keep-a-changelog": "^4.0.0",
     "@types/jest": "^29.5.4",
+    "auto-changelog": "^2.4.0",
     "del": "^7.1.0",
     "dotenv-cli": "^7.3.0",
     "jest": "^29.6.4",
@@ -25,7 +26,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "auto-changelog": "^2.4.0",
     "cron": "^2.4.3"
   },
   "directories": {
