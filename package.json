@@ -12,6 +12,17 @@
     "release": "dotenv release-it",
     "test": "jest"
   },
+  "keywords": [
+    "microservice",
+    "moleculer",
+    "cron",
+    "esm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:john-ko/moleculer-cron.git"
+  },
+  "homepage": "https://github.com/john-ko/moleculer-cron/#readme",
   "devDependencies": {
     "@release-it/keep-a-changelog": "^4.0.0",
     "@types/jest": "^29.5.4",
@@ -31,8 +42,8 @@
   "directories": {
     "test": "tests"
   },
-  "author": "John Ko<johnko426@gmail.com>",
-  "description": "moleculer cronjob mixin",
+  "author": "John Ko",
+  "description": "moleculer cronjob mixin with es6 imports",
   "files": [
     "./dist/index.js"
   ]
