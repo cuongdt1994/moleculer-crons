@@ -2,6 +2,7 @@
   "name": "@john-ko/moleculer-crons",
   "version": "0.0.0",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "license": "MIT",
   "type": "module",
   "publishConfig": {
@@ -45,6 +46,7 @@
   "author": "John Ko",
   "description": "moleculer cronjob mixin with es6 imports",
   "files": [
-    "./dist/index.js"
+    "./dist/index.js",
+    "./dist/index.d.ts"
   ]
 }
